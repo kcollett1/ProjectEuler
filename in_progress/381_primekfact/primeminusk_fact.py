@@ -1,20 +1,25 @@
 #!/usr/bin/env python
 
-upper_limit  = 10 ** 2
-fact_tracker = 1
-sum_S_p      = 4
-primes       = [2, 3, 5]
+lim = 10
+fac = [1, 1, 2, 6, 24]
+ans = 0
 
 def isprime(n):
     for i in range(3, int(n ** 0.5) + 1, 2):
         if n % i == 0: return 0
     return 1
 
-for p in range(7, upper_limit, 2):
-    fact_tracker *= (p - 6) * (p - 5)
-    if (p - 1) % 10**6 == 0: print(p)
+for p in range(5, lim, 2):
+    if (p - 1) % 10 ** 7 == 0: print(p, ans)
     if isprime(p):
-        primes.append(p)
-        #sum_S_p += (fact_tracker * (p**4 - 9*p**3 + 27*p**2 - 30*p + 9)) % p
+        a   = [i % p for i in fac]
+        ctr = 0
+        for i in a: ctr = (ctr + i) % p
+        ans += ctr
+        print(ans,ctr)
 
-print('answer:', sum_S_p)
+    a   = fac[-1] * p
+    b   = a * (p + 1)
+    fac = fac[2:] + [a, b]
+
+print('answer:', ans)
