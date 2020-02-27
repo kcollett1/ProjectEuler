@@ -1,0 +1,30 @@
+why do i want to program/switch careers
+	fun!
+	i believe in doing something with my time that i thoroughly enjoy and believe in
+	i love animals and i love what i'm doing now, but no real room for growth
+	or possibility to take it further
+	finding myself on various coding sites/challenges (codesignal, leetcode, projecteuler, etc)
+	in most of my free time and that it's what i really enojy - solving problems
+
+why data science?
+	i thoughtfully considered the various tracks offered (machine learning, software engineering...)
+	and felt data science was the best fit for me
+	in fact i found out about springboard via linkedin (user acquistion message)
+	who recommended me for the ML program, but i feel the data science program is a better fit
+	for what i enjoy doing and what i want to learn and do in the future
+	not interested particularly in web/front-end development (html/css/etc)
+	have experience in data analysis previously and really enjoyed it (worked with large data sets,
+	analyzed, generated, etc) and want to build my skills and pursue this field further
+	i like solving puzzles, finding hidden patterns, discovering hidden patterns and testing
+	out hypotheses
+	interested in data visualization as well, and how it can actually be useful in analyses rather
+	than just looking pretty
+	learn by doing, that's why i like the idea of project-based curriculum offered by springboard
+	
+
+tell me about yourself/background
+	highly analytical and motivated
+	i like research and love learning
+	like problem solving
+	believe in spending time on things that really matter (helping others, animals, political causes, etc)
+	data science gives you a platform to do something that really matters and can make big impacts

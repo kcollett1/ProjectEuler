@@ -1,14 +1,14 @@
+#!/bin/usr/env python
 
-prm = [3]
+fo = open("primes.txt","w")
+fo.write('2\n')
+fo.write('3\n')
 
-for p in range(5, 10**8, 2):
-    sqrtp = p ** 0.5
+for i in range(5, 9999999, 2):
     prime = 1
-    for i in prm:
-        if i > sqrtp: break
-        if p % i == 0: prime = 0; break
-    if prime: prm.append(p)
+    for j in range(3, int(i ** 0.5) + 1, 2):
+        if not i % j: prime = 0; break
+    if prime: fo.write(str(i)+'\n')
 
-f = open("listofprimes_lt10_8.txt", "w")
-for p in [2] + prm: f.write(str(p) + '\n')
-f.close()
+fo.close()
+#322 primes from 1-2000
